@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "hide-youtube-watched-videos",
+  "version": "1.0.0",
+  "description": "Watch unwatched videos only",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/feed/subscriptions"],
+      "js": ["youtubeVideosFinder.js", "videosDisplayManager.js", "index.js"]
+    }
+  ]
+}
