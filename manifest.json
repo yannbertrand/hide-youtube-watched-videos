@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "hide-youtube-watched-videos",
+  "name": "Hide YouTube watched videos",
   "version": "1.0.0",
-  "description": "Watch unwatched videos only",
+  "description": "Hide watched videos from your YouTube feed",
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/feed/subscriptions"],
