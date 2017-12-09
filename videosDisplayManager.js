@@ -17,8 +17,8 @@ class VideosDisplayManager {
       return
     }
 
-    console.info(new Date())
     console.groupCollapsed(`Hiding ${videos.length} watched videos`)
+    console.info(new Date())
 
     for (const video of videos) {
       console.info(video.title)
@@ -37,8 +37,8 @@ class VideosDisplayManager {
       return
     }
 
-    console.info(new Date())
     console.groupCollapsed(`Hiding ${videos.length} partially watched videos`)
+    console.info(new Date())
 
     for (const video of videos) {
       console.info(video.title)
